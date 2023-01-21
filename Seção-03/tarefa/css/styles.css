@@ -1,0 +1,21 @@
+.container {
+  margin: 25px;
+  height: auto;
+  padding: 10px ;
+  background-color: aliceblue;
+  border: 3px dotted blue;
+}
+
+.row{
+  border: 2px solid orange;
+  height: auto;
+  padding: 10px;
+}
+
+.col{
+  height: 100%;
+  border: 1px dashed red;
+}
+.inpar{
+  background-color: blanchedalmond;
+}
