@@ -1,0 +1,34 @@
+.container{
+  border: 2px dotted blue;
+  margin: 40px;
+}
+
+.row{
+  padding: 10px 10px;
+  margin: 20px;
+  border: 1px solid red;
+}
+.col-6{
+  padding: 5px;
+  border: 1px solid black;
+  margin: 0;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+
+.bi.bi-calculator{
+  font-size: 20px;
+  color: crimson;
+}
+
+.bi.bi-credit-card{
+  font-size: 30px;
+  color: goldenrod;
+}
+
+.bi.bi-database{
+  font-size: 40px;
+  color: green;
+}
