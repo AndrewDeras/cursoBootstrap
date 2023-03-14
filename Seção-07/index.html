@@ -310,5 +310,180 @@
         <label for="c" class="form-check-label">Radio desabilitado</label>
       </div>
     </div>
+
+    <!-- switch -->
+
+    <div class="col-4 m-4">
+      <h2>Escolha sua configurações</h2>
+      <div class="form-check form-switch">
+        <input type="checkbox" id="flex-switch" class="form-check-input" />
+        <label class="form-check-label" for="flex-switch"
+          >Você quer ativar isto ?</label
+        >
+      </div>
+      <div class="form-check form-switch">
+        <input
+          type="checkbox"
+          id="flex-switch-disabled"
+          class="form-check-input"
+          disabled
+        />
+        <label class="form-check-label" for="flex-switch-disabled"
+          >Switch desabilitado
+        </label>
+      </div>
+    </div>
+
+    <!-- range -->
+
+    <div class="col-4 m-4">
+      <h2>Por favor responda.</h2>
+      <label for="probabilidade" class="form-label"
+        >Qual a probabilidade de indicar este site para alguém?</label
+      >
+      <input
+        type="range"
+        min="0"
+        max="5"
+        id="probabilidade"
+        class="form-range"
+      />
+      <h2>Por favor responda.</h2>
+      <label for="probabilidade2" class="form-label"
+        >Qual a probabilidade de indicar este site para alguém?</label
+      >
+      <input
+        type="range"
+        min="0"
+        max="5"
+        id="probabilidade2"
+        class="form-range"
+        disabled
+      />
+    </div>
+
+    <!-- input group -->
+
+    <div class="col-4 m-4">
+      <div class="input-group mb-4">
+        <span class="input-group-text" id="basic-addon">@</span>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Digite seu email."
+        />
+      </div>
+      <div class="input-group mb-4">
+        <span class="input-group-text" id="basic-addon2">#</span>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Digite o nome do canal."
+        />
+      </div>
+
+      <p>Quanto voce quer depositar (sem centavos)</p>
+      <div class="input-group mb-4">
+        <span class="input-group-text">R$</span>
+        <input type="text" class="form-control" placeholder="Valor" />
+        <span class="input-group-text">,00</span>
+      </div>
+    </div>
+
+    <!-- label flutuante -->
+
+    <div class="col-4 m-4">
+      <h2>Faça login para continuar</h2>
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="email_float"
+          placeholder="Insira seu email"
+        />
+        <label for="email_float">Insira seu email</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="password"
+          class="form-control"
+          id="password_float"
+          placeholder="Insira sua senha"
+        />
+        <label for="password_float">Insira sua senha</label>
+      </div>
+      <button class="btn btn-primary">Entrar</button>
+    </div>
+
+    <!-- layouts com forms -->
+
+    <div class="container col-6 mb-4">
+      <h2>Cadastra-se preenchendo o formulário</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email: </label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Digite seu email"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Senha: </label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            placeholder="Digite a sua senha"
+          />
+        </div>
+        <div class="col-md-4">
+          <label class="form-label" for="cep">CEP: </label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Digite seu CEP"
+          />
+        </div>
+        <div class="col-md-10">
+          <label for="rua" class="form-label">Rua: </label>
+          <input type="text" class="form-control" placeholder="Digite a rua" />
+        </div>
+        <div class="col-md-2">
+          <label for="numero" class="form-label">Numero: </label>
+          <input type="text" class="form-control" placeholder="Nº" />
+        </div>
+        <div class="col-md-4">
+          <label for="cidade" class="form-label">Cidade: </label>
+          <input type="text" class="form-control" placeholder="Sua cidade" />
+        </div>
+        <div class="col-md-4">
+          <label for="estado" class="form-label">Estado: </label>
+          <select class="form-select">
+            <option selected>Seleciones um estado:</option>
+            <option value="1">RJ</option>
+            <option value="2">SP</option>
+            <option value="3">MG</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              name=""
+              id="newsletter"
+              class="form-check-input"
+            />
+            <label for="newsletter" class="form-check-label"
+              >Receber newsletter?</label
+            >
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art</title>
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container col-6 mb-4">
+      <h2>Cadastro de produtos</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="tex" class="form-label">Nome: </label>
+          <input
+            type="nome"
+            class="form-control"
+            id="nome"
+            placeholder="Digite o nome do produto"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="date" class="form-label">Data de vencimento: </label>
+          <input
+            type="date"
+            id="date"
+            class="form-control"
+            placeholder="Digite a data de vencimento"
+          />
+        </div>
+      
+        <div class="col-md-6">
+          <label for="fornecedor" class="form-label">Fornecedor: </label>
+          <input type="text" class="form-control" placeholder="informe o fornecedor" />
+        </div>
+        <div class="col-md-6">
+          <label for="origem" class="form-label">Origem: </label>
+          <input type="text" class="form-control" placeholder="Informe a procedencia" />
+        </div>
+        <div class="col-md-4">
+          <label for="quantidade" class="form-label">Quantidade de caixas: </label>
+          <input type="number" class="form-control" placeholder="Informe a quantidade" />
+        </div>
+        <div class="col-md-4">
+          <label for="estado" class="form-label">Categorias: </label>
+          <select class="form-select">
+            <option selected>Selecione uma categoria:</option>
+            <option value="1">Bebidas</option>
+            <option value="2">Carnes</option>
+            <option value="3">Lacteos</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              type="checkbox"
+              name=""
+              id="estoque"
+              class="form-check-input"
+            />
+            <label for="newsletter" class="form-check-label"
+              >Está em estoque?</label
+            >
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
